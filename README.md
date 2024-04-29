@@ -13,7 +13,8 @@ docker run -d --hostname gitlab.dev-ops.expert \
 gitlab/gitlab-ce:latest
 ```
 
-root password için container içinde /etc/gitlab/initial_root_password dan alırız.
+
+root password için container içinde ```/etc/gitlab/initial_root_password``` dan alırız.
 
 runner için.
 
